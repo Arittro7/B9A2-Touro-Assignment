@@ -8,6 +8,13 @@
   font-family: 'Mulish', sans-serif;
 }
 
+.section-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
 .btn-primary {
   width: 174px;
   height: 52px;
@@ -30,11 +37,13 @@ nav {
   align-items: center;
   margin-bottom: 50px;
 }
-.nav-logo-container{
+
+.nav-logo-container {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 .logo-text {
   font-size: 36px;
   font-weight: 800;
@@ -66,7 +75,6 @@ nav li a {
 
 .hero-section {
   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-  min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -75,7 +83,7 @@ nav li a {
 .banner-content {
   max-width: 800px;
   height: 500px;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,24 +125,108 @@ nav li a {
   border: none;
 }
 
+/* Tour section style */
+.tour-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap: 20px;
+}
+.tour-section, .section-title{
+  text-align: left;
+}
+.tour-section, .btn-primary{
+  margin-top: 35px ;
+}
+
+.tcard-content {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Destination styles */
+.destination{
+  margin-top: 60px;
+}
+.destination-content h2{
+  text-align: center;
+}
+.destination-content{
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+.destination-images{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.img-container img{
+  width: 100%;
+}
 /* ⚠ Responsive area ⚠ */
 
 /* Mobile Responsive */
 
 @media screen and (max-width: 600px) {
 
-  header{
+  header {
     padding: 20px;
   }
-  nav{
+
+  nav,
+  .banner-content,
+  .bnr-filter,
+  .tour-section {
     flex-direction: column;
   }
+
   .logo-text {
     font-size: 20px;
     font-weight: 800;
   }
+
   nav>ul {
     flex-direction: column;
+  }
+
+  .hero-section {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 335px;
+    height: 483px;
+    margin: 0 auto;
+  }
+
+  .banner-content {
+    width: 300px;
+    padding: o 15px;
+  }
+
+  .bnr-text {
+    font-size: 24px;
+  }
+
+  .bnr-para {
+    font-size: 14px;
+  }
+
+  .bnr-form {
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn-primary {
+    justify-content: center;
+  }
+
+  .tour-section, .section-title{
+    font-size: 24px;
+  }
+  .tour-section{
+    width: 600px;
   }
 
 
