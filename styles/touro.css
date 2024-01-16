@@ -228,7 +228,10 @@ nav li a {
   .tour-section{
     width: 600px;
   }
-
+.destination-images{
+  flex-direction: column;
+  height: 175.393px;
+}
 
 }
 
