@@ -331,18 +331,18 @@ hr {
 
 @media screen and (max-width: 600px) {
   * {
-    width: 100%
+    width: 335px;
   }
 
   header {
     padding: 5px;
   }
 
-  nav img{
+  nav img {
     width: 20px;
   }
 
-  nav{
+  nav {
     text-align: center;
   }
 
@@ -386,7 +386,8 @@ hr {
     margin: 0 auto;
     font-size: 14px;
   }
-  .bnr-filter{
+
+  .bnr-filter {
     width: 304px;
     display: flex;
     flex-direction: column;
@@ -397,7 +398,7 @@ hr {
     margin-top: 10px;
   }
 
-  .bnr-form input{
+  .bnr-form input {
     margin-bottom: 5px;
 
   }
@@ -406,6 +407,7 @@ hr {
     justify-content: center;
   }
 
+  /* tour section Responsive */
   .tour-section,
   .section-title {
     font-size: 24px;
@@ -413,13 +415,29 @@ hr {
 
   .tour-section {
     width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
   }
 
+  /* Destination Section */
   .destination-images {
     flex-direction: column;
-    height: 175px;
   }
 
+  /* Why Choose Us */
+  .card-container{
+    flex-direction: column;
+  }
+  .choose-card{
+    width: 335px;
+    border-radius: 10px;
+  }
+
+  /* Perfect Section Responsive */
+  .perfect-section{
+    flex-direction: column;
+  }
+  
 }
 
 /* nav ber responsive will done later */
