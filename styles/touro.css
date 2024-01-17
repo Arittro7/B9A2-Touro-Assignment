@@ -259,7 +259,7 @@ nav li a {
   border: 2px solid tomato;
   border-radius: 10px;
   padding: 40px;
-  margin: auto 0;
+  margin: 0 0 120px;
 }
 
 .signup-field {
@@ -279,6 +279,34 @@ nav li a {
 
 .newsletter-content .btn-primary {
   width: 100%;
+}
+
+.travel-discount {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #FF5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -180px;
+  left: 340px;
+}
+
+.travel-heading {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+}
+
+.travel-save {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 footer {
@@ -425,19 +453,68 @@ hr {
   }
 
   /* Why Choose Us */
-  .card-container{
+  .card-container {
     flex-direction: column;
   }
-  .choose-card{
+
+  .choose-card {
     width: 335px;
     border-radius: 10px;
   }
 
   /* Perfect Section Responsive */
-  .perfect-section{
+  .perfect-section {
     flex-direction: column;
   }
-  
+
+  /* Newsletter Container Responsive */
+  .newsletter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-content {
+    margin-bottom: 20px;
+  }
+
+  /* Footer Section Responsive */
+  footer {
+    width: 335px;
+  }
+
+  .footer-logo-container {
+    text-align: center;
+  }
+
+  .footer-logo-container img {
+    width: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-icons {
+    display: flex;
+    width: 3px;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-icons,
+  span,
+  i {
+    padding: 0;
+  }
+
+  hr {
+    width: 315px;
+    margin: 40px auto 40px auto;
+  }
+
+  .footer-content p {
+    width: 285px;
+  }
+
 }
 
 /* nav ber responsive will done later */
