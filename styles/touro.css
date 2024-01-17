@@ -9,8 +9,7 @@
 }
 
 main {
-  width: 1170px;
-  margin: 0 auto;
+  margin: 0 135px;
 }
 
 .section-title {
@@ -142,10 +141,9 @@ nav li a {
   text-align: left;
 }
 
-.tour-section,
-.btn-primary {
+/* .tour-section .btn-primary {
   margin-top: 35px;
-}
+} */
 
 .tcard-content {
   color: rgba(19, 19, 24, 0.70);
@@ -237,10 +235,10 @@ nav li a {
   text-align: left;
 }
 
-.perfect-section,
+/* .perfect-section,
 .btn-primary {
   margin-top: 35px;
-}
+} */
 
 .pcard-content {
   color: rgba(19, 19, 24, 0.70);
@@ -365,7 +363,8 @@ hr {
   }
 
   .hero-section {
-    max-width: 400px;
+    max-width: 335px;
+    padding: 0 15px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -373,7 +372,9 @@ hr {
 
   .banner-content {
     width: 100%;
-    padding: o 15px;
+    /* padding: o 15px; */
+    display: flex;
+    flex-direction: column;
   }
 
   .bnr-text {
@@ -381,12 +382,24 @@ hr {
   }
 
   .bnr-para {
+    width: 304px;
+    margin: 0 auto;
     font-size: 14px;
+  }
+  .bnr-filter{
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .bnr-form {
-    margin: 0;
-    padding: 0;
+    margin-top: 10px;
+  }
+
+  .bnr-form input{
+    margin-bottom: 5px;
+
   }
 
   .btn-primary {
